@@ -17,8 +17,6 @@ public class MainActivity extends AppCompatActivity {
 
         //buttonLocation=findViewById(R.id.buttonLocation);
         //buttonFused=findViewById(R.id.buttonFused);
-
-
     }
 
     public void onLocationManager(View view){

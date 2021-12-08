@@ -37,7 +37,7 @@ public class LocationManagerActivity extends AppCompatActivity implements Locati
             ActivityCompat.requestPermissions(LocationManagerActivity.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 100);
         }
 
-        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 1, this);
+        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 100, this);
     }
 
     @Override
